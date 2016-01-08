@@ -26,7 +26,7 @@
 	<packaging>jar</packaging>
 	<name>Decision Siddhi extensions</name>
 	<properties>
-		<siddhi.version>2.1.0-wso2v1</siddhi.version>
+		<siddhi.version>2.2.1</siddhi.version>
 	</properties>
 
     <repositories>
@@ -35,6 +35,10 @@
             <name>Scala-tools Maven2 Repository</name>
             <url>http://scala-tools.org/repo-releases</url>
         </repository>
+        <repository>
+           	<id>WSO2</id>
+        	<url>http://maven.wso2.org/nexus/content/repositories/releases/</url>
+    	</repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
